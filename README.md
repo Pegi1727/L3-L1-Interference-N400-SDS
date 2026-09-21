@@ -150,7 +150,19 @@ This open-science repository contains all behavioral datasets, preprocessed elec
 | **$\Delta$ Reaction Time** | $\Delta$ L1 Calque Errors | **$r = .44$** | **$.004^{**}$** | Faster RT facilitates lower structural transfer errors. |
 
 ---
-
+ Citation & DOI
+bibtex
+@article{merrikhi2026reducing,
+  title={Longitudinal N400 and Behavioral Evidence for Reducing L1 Interference in L3 Processing},
+  author={Merrikhi, Pegah},
+  journal={Language Learning and Brain Dynamics},
+  year={2026},
+  doi={10.5281/zenodo.10892451},
+  url={https://github.com/Pegi1727/L3-L1-Interference-N400-SDS}
+}
+---
+Merrikhi, P. (2026). Longitudinal N400 and Behavioral Evidence for Reducing L1 Interference in L3 Processing. Zenodo.
+---
 ## 📁 Repository Structure
 ```text
 ├── Results/
