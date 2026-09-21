@@ -1,0 +1,13 @@
+Measure / Index,Time / Contrast,EG (M±SD / Value),CG (M±SD / Value),Test Statistic,p-value,Effect Size (d / η_p^2),Interpretation
+N400 Violation Cost (μV),Baseline (T1),5.19 ± 1.76,4.76 ± 1.77,t(78) = 1.09,.278,0.24,Non-significant
+N400 Violation Cost (μV),Retention (T3),3.26 ± 1.84,4.85 ± 2.24,t(78) = -3.46,< .001,0.77,Significant (EG lower cost)
+RT Violation Cost (ms),Baseline (T1),1048.4 ± 176.6,1052.8 ± 153.2,t(78) = -0.12,.906,0.03,Non-significant
+RT Violation Cost (ms),Retention (T3),895.0 ± 145.2,1026.6 ± 168.4,t(78) = -3.74,< .001,0.84,Significant (EG lower cost)
+Calque Error Cost,Baseline (T1),7.92 ± 3.23,8.63 ± 2.87,t(78) = -1.04,.301,0.23,Non-significant
+Calque Error Cost,Retention (T3),4.26 ± 2.65,8.00 ± 2.89,t(78) = -6.03,< .001,1.35,Significant (EG lower cost)
+N400 Simple Effect (Mismatch),T1 -> T3 Longitudinal (EG),8.57 ± 1.90,5.62 ± 2.33,"F(2, 78) = 28.41",< .001,η_p^2 = .421,Monotonic reduction
+N400 Simple Effect (Mismatch),T1 -> T3 Longitudinal (CG),7.57 ± 1.96,7.93 ± 2.66,"F(2, 78) = 0.44",.645,η_p^2 = .011,Static
+RT Simple Effect (Mismatch),T1 -> T3 Longitudinal (EG),1735.6 ± 227.7,1493.1 ± 183.1,"F(2, 78) = 17.65",< .001,η_p^2 = .312,Δ = -242.5 ms facilitation
+RT Simple Effect (Mismatch),T1 -> T3 Longitudinal (CG),1720.8 ± 192.5,1695.2 ± 213.2,"F(2, 78) = 1.94",.151,η_p^2 = .047,Static
+Calque Error Simple Effect (Mismatch),T1 -> T3 Longitudinal (EG),9.99 ± 3.93,5.28 ± 3.22,"F(2, 78) = 26.88",< .001,η_p^2 = .408,Δ = -4.71 errors
+Calque Error Simple Effect (Mismatch),T1 -> T3 Longitudinal (CG),10.66 ± 3.61,10.15 ± 3.55,"F(2, 78) = 0.48",.621,η_p^2 = .012,Static

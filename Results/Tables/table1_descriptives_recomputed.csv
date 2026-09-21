@@ -1,0 +1,91 @@
+Measure,Group,Time,Condition,M±SD,N
+N400,CG,T1,Control,2.82±1.22,40.0
+N400,CG,T1,Mismatch,7.57±1.96,40.0
+N400,CG,T1,Target,4.94±1.51,40.0
+N400,CG,T2,Control,3.14±1.24,40.0
+N400,CG,T2,Mismatch,7.87±2.18,40.0
+N400,CG,T2,Target,5.07±1.47,40.0
+N400,CG,T3,Control,3.07±1.49,40.0
+N400,CG,T3,Mismatch,7.93±2.66,40.0
+N400,CG,T3,Target,5.34±2.11,40.0
+N400,EG,T1,Control,3.38±0.89,40.0
+N400,EG,T1,Mismatch,8.57±1.90,40.0
+N400,EG,T1,Target,5.79±1.26,40.0
+N400,EG,T2,Control,2.78±1.12,40.0
+N400,EG,T2,Mismatch,6.58±2.27,40.0
+N400,EG,T2,Target,4.73±1.77,40.0
+N400,EG,T3,Control,2.36±1.20,40.0
+N400,EG,T3,Mismatch,5.62±2.33,40.0
+N400,EG,T3,Target,3.82±1.84,40.0
+RT,CG,T1,Control,667.91±85.23,40.0
+RT,CG,T1,Mismatch,1720.76±192.54,40.0
+RT,CG,T1,Target,1140.69±137.60,40.0
+RT,CG,T2,Control,643.92±118.28,40.0
+RT,CG,T2,Mismatch,1624.83±207.65,40.0
+RT,CG,T2,Target,1072.67±162.91,40.0
+RT,CG,T3,Control,668.65±89.45,40.0
+RT,CG,T3,Mismatch,1695.24±213.17,40.0
+RT,CG,T3,Target,1135.01±135.97,40.0
+RT,EG,T1,Control,687.22±108.08,40.0
+RT,EG,T1,Mismatch,1735.60±227.70,40.0
+RT,EG,T1,Target,1149.11±143.81,40.0
+RT,EG,T2,Control,683.88±108.37,40.0
+RT,EG,T2,Mismatch,1678.11±232.40,40.0
+RT,EG,T2,Target,1120.53±147.02,40.0
+RT,EG,T3,Control,598.16±114.32,40.0
+RT,EG,T3,Mismatch,1493.12±183.09,40.0
+RT,EG,T3,Target,1007.34±131.48,40.0
+Fluency,CG,T1,Control,95.13±7.00,40.0
+Fluency,CG,T1,Mismatch,35.26±6.81,40.0
+Fluency,CG,T1,Target,70.35±9.43,40.0
+Fluency,CG,T2,Control,94.82±7.06,40.0
+Fluency,CG,T2,Mismatch,36.01±7.21,40.0
+Fluency,CG,T2,Target,73.14±9.19,40.0
+Fluency,CG,T3,Control,95.13±7.76,40.0
+Fluency,CG,T3,Mismatch,36.03±6.71,40.0
+Fluency,CG,T3,Target,71.82±10.16,40.0
+Fluency,EG,T1,Control,94.90±7.04,40.0
+Fluency,EG,T1,Mismatch,35.84±6.09,40.0
+Fluency,EG,T1,Target,70.40±9.94,40.0
+Fluency,EG,T2,Control,96.72±6.51,40.0
+Fluency,EG,T2,Mismatch,36.79±8.92,40.0
+Fluency,EG,T2,Target,73.36±9.19,40.0
+Fluency,EG,T3,Control,98.79±2.98,40.0
+Fluency,EG,T3,Mismatch,39.65±8.33,40.0
+Fluency,EG,T3,Target,79.01±8.79,40.0
+L1 Pragmatic Reliance,CG,T1,Control,5.52±1.44,40.0
+L1 Pragmatic Reliance,CG,T1,Mismatch,13.81±3.25,40.0
+L1 Pragmatic Reliance,CG,T1,Target,9.18±2.32,40.0
+L1 Pragmatic Reliance,CG,T2,Control,5.18±1.82,40.0
+L1 Pragmatic Reliance,CG,T2,Mismatch,12.69±3.57,40.0
+L1 Pragmatic Reliance,CG,T2,Target,8.46±2.38,40.0
+L1 Pragmatic Reliance,CG,T3,Control,4.47±1.47,40.0
+L1 Pragmatic Reliance,CG,T3,Mismatch,12.02±3.39,40.0
+L1 Pragmatic Reliance,CG,T3,Target,7.82±2.47,40.0
+L1 Pragmatic Reliance,EG,T1,Control,5.36±1.53,40.0
+L1 Pragmatic Reliance,EG,T1,Mismatch,13.56±3.55,40.0
+L1 Pragmatic Reliance,EG,T1,Target,9.30±2.22,40.0
+L1 Pragmatic Reliance,EG,T2,Control,5.13±1.64,40.0
+L1 Pragmatic Reliance,EG,T2,Mismatch,12.27±4.44,40.0
+L1 Pragmatic Reliance,EG,T2,Target,8.35±2.73,40.0
+L1 Pragmatic Reliance,EG,T3,Control,3.26±1.59,40.0
+L1 Pragmatic Reliance,EG,T3,Mismatch,9.32±3.87,40.0
+L1 Pragmatic Reliance,EG,T3,Target,6.16±2.58,40.0
+L1 Calque Errors,CG,T1,Control,4.14±1.56,40.0
+L1 Calque Errors,CG,T1,Mismatch,10.66±3.61,40.0
+L1 Calque Errors,CG,T1,Target,7.27±2.39,40.0
+L1 Calque Errors,CG,T2,Control,4.16±1.29,40.0
+L1 Calque Errors,CG,T2,Mismatch,10.14±3.55,40.0
+L1 Calque Errors,CG,T2,Target,6.69±2.24,40.0
+L1 Calque Errors,CG,T3,Control,3.90±1.86,40.0
+L1 Calque Errors,CG,T3,Mismatch,10.15±3.55,40.0
+L1 Calque Errors,CG,T3,Target,6.77±2.51,40.0
+L1 Calque Errors,EG,T1,Control,4.17±1.51,40.0
+L1 Calque Errors,EG,T1,Mismatch,9.99±3.93,40.0
+L1 Calque Errors,EG,T1,Target,6.54±2.38,40.0
+L1 Calque Errors,EG,T2,Control,3.00±1.65,40.0
+L1 Calque Errors,EG,T2,Mismatch,7.48±3.25,40.0
+L1 Calque Errors,EG,T2,Target,5.22±2.33,40.0
+L1 Calque Errors,EG,T3,Control,2.37±1.62,40.0
+L1 Calque Errors,EG,T3,Mismatch,5.28±3.22,40.0
+L1 Calque Errors,EG,T3,Target,3.49±2.24,40.0

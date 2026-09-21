@@ -1,0 +1,22 @@
+Measure,Term,Observed F,Parametric p,Permutation p (p_perm),FDR Adjusted q (q_FDR),Statistical Decision
+N400 Amplitude,Group,5.631,.020,.0192,.0256,Significant
+N400 Amplitude,Time,5.542,.005,.0044,.0071,Significant
+N400 Amplitude,Condition,1120.007,< .001,< .0001,< .0001,Significant
+N400 Amplitude,Group x Time,11.199,< .001,< .0001,< .0001,Significant
+N400 Amplitude,Group x Condition,7.426,< .001,.0008,.0016,Significant
+N400 Amplitude,Time x Condition,4.39,.002,.0019,.0031,Significant
+N400 Amplitude,Group x Time x Condition,5.527,< .001,< .0001,< .0001,Significant
+Reaction Time,Group,1.496,.225,.2241,.2480,Non-significant
+Reaction Time,Time,7.577,< .001,.0006,.0013,Significant
+Reaction Time,Condition,7265.695,< .001,< .0001,< .0001,Significant
+Reaction Time,Group x Time,9.897,< .001,< .0001,< .0001,Significant
+Reaction Time,Group x Condition,3.033,.051,.0495,.0580,Non-significant
+Reaction Time,Time x Condition,6.258,< .001,.0001,.0003,Significant
+Reaction Time,Group x Time x Condition,4.401,.002,.0018,.0031,Significant
+L1 Calque Errors,Group,41.043,< .001,< .0001,< .0001,Significant
+L1 Calque Errors,Time,11.071,< .001,< .0001,< .0001,Significant
+L1 Calque Errors,Condition,985.394,< .001,< .0001,< .0001,Significant
+L1 Calque Errors,Group x Time,6.501,.002,.0018,.0031,Significant
+L1 Calque Errors,Group x Condition,29.375,< .001,< .0001,< .0001,Significant
+L1 Calque Errors,Time x Condition,6.386,< .001,.0001,.0003,Significant
+L1 Calque Errors,Group x Time x Condition,5.161,< .001,< .0001,< .0001,Significant
