@@ -1,0 +1,9 @@
+Variable,Type,Description,Values/Levels
+Subject_ID,Categorical,Unique participant identifier (EG01-EG40 CG01-CG40),EG01 to EG40; CG01 to CG40
+Group,Categorical,Experimental condition (ODML-adapted vs Control conventional training),Experimental; Control
+Time,Categorical,Testing session timeline,Pretest (T1); Posttest (T2); Delayed_Posttest (T3)
+Condition,Categorical,Semantic congruency in RSVP reading task,Congruent; Moderately_Incongruent; Strongly_Incongruent
+N400_amplitude,Continuous,Mean ERP amplitude 350-500 ms centro-parietal ROI (uV),real values (uV)
+RT,Continuous,Response time lexical/semantic decision task (ms),positive real values (ms)
+Accuracy,Continuous,Percent correct semantic congruency classifications,0.0 - 100.0
+Comprehension_Score,Continuous,Delayed comprehension assessment score,0-100
