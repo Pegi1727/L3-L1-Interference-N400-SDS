@@ -1,0 +1,249 @@
+[55] 3. Methodology
+
+[56] 3.1. Participants
+
+[57] A total of 80 adult trilingual learners participated in the study (). All participants were native speakers of Azerbaijani Turkish (L1), with Persian as their second language (L2) and English as their third language (L3). Participants were randomly assigned in equal numbers to an Experimental Group (EG, ) or a Control Group (CG, ).
+
+[58] All participants were right-handed, as assessed using the Edinburgh Handedness Inventory, and reported normal or corrected-to-normal vision and no history of neurological or psychiatric disorders. English proficiency was standardized at the B2 (upper-intermediate) level according to the Common European Framework of Reference for Languages (CEFR) and verified using the Oxford Placement Test.
+
+[59] Ethical approval was obtained from the relevant Institutional Review Board prior to data collection. All participants provided written informed consent before participation.
+
+[60] 3.2. Experimental Design
+
+[61] The study employed a mixed factorial design.
+
+[62] The between-subjects factor was Group, with two levels:
+
+[63] Experimental Group (EG, )
+
+[64] Control Group (CG, )
+
+[65] The within-subjects factors were Time and Condition.
+
+[66] Time comprised three assessment points:
+
+[67] : pre-intervention baseline
+
+[68] : immediate post-intervention assessment
+
+[69] : four-week delayed retention assessment
+
+[70] Condition comprised three semantic-processing contexts:
+
+[71] Control: semantically and pragmatically congruent English sentences
+
+[72] Target: sentences containing structures susceptible to L1-mediated interference and calque-like processing
+
+[73] Mismatch: sentences containing overt semantic or pragmatic incongruities
+
+[74] The analytical dataset comprised 720 participant-condition-time observation units (80 participants 3 time points 3 conditions). These units represent aggregated analytical observations rather than 720 raw EEG trials.
+
+[75] 3.3. Stimuli and Linguistic Task
+
+[76] The experimental stimulus set consisted of 180 English sentences, with 60 sentences assigned to each of the three experimental conditions.
+
+[77] In the Control condition, sentences followed standard English semantic and idiomatic norms and did not introduce cross-linguistic conflict. In the Target condition, sentences contained structures susceptible to Azerbaijani-mediated interference, including calque-prone or literal mappings intended to engage L1-mediated lexical-semantic processing. In the Mismatch condition, sentences contained overt semantic or pragmatic incongruities designed to heighten semantic-processing demands.
+
+[78] Stimuli were presented visually using a word-by-word Rapid Serial Visual Presentation (RSVP) paradigm. Each word was presented for , followed by an inter-stimulus interval (ISI) of .
+
+[79] The critical sentence-final word served as the temporal reference point for electrophysiological epoching and reaction-time measurement. Following sentence presentation, participants completed a binary semantic-congruity judgment using a response pad.
+
+[80] 3.4. EEG Recording and Preprocessing
+
+[81] Continuous EEG was recorded using 64 Ag/AgCl active electrodes positioned according to the extended International 10–20 system. EEG was digitized at a sampling rate of , with the left mastoid used as the online reference. Electrode impedances were maintained below across all recording sites throughout the experimental sessions.
+
+[82] Offline preprocessing was performed in MATLAB R2023a using EEGLAB and custom analysis scripts.
+
+[83] The preprocessing pipeline consisted of several stages. Continuous EEG data were initially high-pass filtered at and low-pass filtered at . A notch filter was applied to attenuate line-frequency contamination. The data were subsequently processed for artifact correction and re-referenced offline to the linked mastoids, calculated as the algebraic average of the left and right mastoids.
+
+[84] Independent Component Analysis (ICA) was performed using the extended Infomax algorithm. Thirty-two independent components were extracted for artifact identification. The ICLabel classifier was used to assist in the identification of ocular, muscular, and other artifactual components, which were removed before subsequent analysis. For ICA processing, the continuous data were additionally high-pass filtered at to improve component decomposition. The resulting ICA solution was then applied to the continuous EEG data.
+
+[85] Continuous EEG was segmented into epochs extending from to relative to the onset of the critical word. Baseline correction was performed using the pre-stimulus interval. Epochs containing residual amplitudes exceeding at any recording channel were automatically rejected before averaging.
+
+[86] 3.5. N400 Quantification
+
+[87] The N400 component was quantified as the mean amplitude within the predefined post-stimulus latency window.
+
+[88] N400 amplitude was extracted from a predefined centroparietal region of interest comprising CP1, CP2, CPz, P1, P2, Pz, and POz. The same ROI and latency window were applied consistently across participants, time points, and experimental conditions. The extracted mean N400 amplitudes were subsequently entered into the longitudinal statistical analyses.
+
+[89] For visualization, ERP waveforms and scalp topographies were generated using the study’s MATLAB/EEGLAB visualization procedures. The N400 visualization window was defined as .
+
+[90] 3.6. Behavioral Measures
+
+[91] 3.6.1. Reaction Time
+
+[92] Reaction time (RT) was measured in milliseconds from the onset of the critical word until the participant registered the binary semantic-congruity judgment.
+
+[93] 3.6.2. Oral Fluency
+
+[94] Oral fluency was assessed using the structured oral-production component of the testing battery. The resulting scores were analyzed longitudinally across the three experimental conditions and assessment points.
+
+[95] 3.6.3. L1-Mediated Pragmatic Reliance
+
+[96] L1-mediated pragmatic reliance (L1_Req) was assessed using structured production tasks designed to capture reliance on L1-mediated pragmatic interpretations during English L3 processing and production.
+
+[97] 3.6.4. L1 Calque Errors
+
+[98] L1 calque errors (L1_Calque) were quantified as observable instances of L1-mediated lexical and structural transfer in the oral-production tasks.
+
+[99] Behavioral productions were evaluated by two expert raters who were blinded to participant group and assessment point. Inter-rater agreement was assessed using Cohen’s kappa (, indicating near-perfect agreement).
+
+[100] 3.7. Statistical Analysis
+
+[101] All primary statistical analyses were conducted in MATLAB R2023a using the study’s statistical analysis procedures and custom scripts.
+
+[102] For each dependent variable, a three-way mixed-design repeated-measures ANOVA was conducted with Group as the between-subjects factor and Time and Condition as within-subjects factors. The model evaluated:
+
+[103] the main effect of Group;
+
+[104] the main effect of Time;
+
+[105] the main effect of Condition;
+
+[106] the interaction;
+
+[107] the interaction;
+
+[108] the interaction; and
+
+[109] the interaction.
+
+[110] The interaction was the principal longitudinal interaction because it tests whether changes over time differed between the Experimental and Control Groups as a function of processing condition.
+
+[111] Sphericity was assessed using Mauchly’s test. Where the assumption was violated, Greenhouse–Geisser corrections were applied to the relevant degrees of freedom. Significant interaction effects were followed by simple-effects and pairwise analyses. Pairwise comparisons were adjusted for multiple comparisons using the correction procedure specified for the relevant analysis.
+
+[112] Partial eta-squared () was used to quantify omnibus effect sizes, and Cohen’s was used for pairwise between-group contrasts. Within-group longitudinal effects were additionally summarized using standardized within-subject effect sizes ().
+
+[113] 3.8. Permutation Testing and Multiple-Comparison Correction
+
+[114] A non-parametric permutation analysis was conducted as a robustness analysis for the N400 comparisons.
+
+[115] The permutation procedure used 10,000 iterations with a fixed random-number seed (20240613) to ensure reproducibility. For each cell, N400 values from the Experimental and Control Groups were pooled and group labels were randomly reshuffled. The observed difference in group means was then compared with the resulting permutation distribution using a two-tailed empirical -value.
+
+[116] Multiple comparisons were controlled using both the Benjamini–Hochberg False Discovery Rate (BH-FDR) procedure and Holm–Bonferroni correction. Adjusted -values were calculated across the set of permutation tests and retained in the resulting permutation-results table.
+
+[117] 3.9. Intervention Procedure
+
+[118] Participants in the Experimental Group completed a six-week Semantic-Discriminative-Stabilization (S-D-S) training intervention designed to reduce reliance on L1-mediated lexical-semantic mappings during English L3 processing. The intervention targeted the discrimination of L1-mediated and target-language semantic and pragmatic mappings, with particular emphasis on reducing literal and calque-like transfer from Azerbaijani into English.
+
+[119] Participants in the Control Group received standard Communicative Language Teaching (CLT) instruction for the same duration and equivalent contact hours. The same assessment battery was administered to both groups at , , and , allowing immediate post-intervention and delayed retention changes to be evaluated.
+
+[120] 3.10. Data Transparency and Reproducibility
+
+[121] The study’s computational workflow was implemented in MATLAB using dedicated scripts for EEG preprocessing and N400 extraction, permutation testing and multiple-comparison correction, and ERP/topographic visualization.
+
+[122] The principal analysis scripts include:
+
+[123] 01_preprocess_and_extract_n400.m
+
+[124] 02_permutation_tests_and_fdr.m
+
+[125] 03_plot_erp_and_topomap.m
+
+[126] The analytical dataset comprises 720 participant-condition-time observations (). This number refers to aggregated analytical observation units and should not be interpreted as the number of raw EEG trials.
+
+[127] The permutation analysis script reads the study dataset, performs the 10,000-iteration label-shuffling procedure, applies BH-FDR and Holm–Bonferroni corrections, and saves the resulting statistical table as permutation_results_n400.csv. All raw tabular datasets and analytical scripts are archived and openly accessible in the study’s repository.
+
+[128] .
+
+[129] 4. Results
+
+[130] 4.1. Data Screening and Baseline Assessment
+
+[131] The final analytical dataset comprised 80 participants (40 Experimental Group [EG], 40 Control Group [CG]) and 720 participant-level observation units across three assessment points and three experimental conditions. The 720 units represent aggregated participant × time × condition observations rather than 720 raw EEG trials.
+
+[132] The electrophysiological and behavioral measures included N400 mean amplitude, reaction time (RT), oral fluency, L1 pragmatic reliance (L1_Req), and L1 calque errors (L1_Calque). Distributional screening was conducted before inferential analysis. The available analysis record indicates no severe departures from univariate normality, and homogeneity of variance was considered adequate for the mixed-design analyses.
+
+[133] At baseline, the behavioral measures did not show significant group differences. For N400 amplitude, however, the descriptive data showed group differences at T1 across the experimental conditions. Therefore, subsequent interpretation emphasizes longitudinal interaction effects, particularly the Group × Time × Condition interaction, rather than assuming complete baseline equivalence in electrophysiological amplitude.
+
+[134] Table 1
+
+[135] Descriptive Statistics (M ± SD) for Electrophysiological and Behavioral Measures Across Groups, Time Points, and Conditions
+
+[136] Note. CG = Control Group; EG = Experimental Group; T1 = pre-intervention; T2 = immediate post-intervention; T3 = four-week delayed retention.
+
+[138] 4.2. Omnibus Mixed-Design ANOVA
+
+[139] Three-way mixed-design ANOVAs were conducted separately for N400 amplitude, RT, oral fluency, L1 pragmatic reliance, and L1 calque errors. The principal longitudinal test was the Group × Time × Condition interaction.
+
+[140] Table 2
+
+[141] Three-Way Mixed-Design ANOVA Results
+
+[142] 4.2.1. N400 Amplitude
+
+[143] N400 amplitude showed significant effects of Group, Time, and Condition. Most importantly, the Group × Time × Condition interaction was significant, F(4,312) = 5.527, p < .001, ηp² = .066.
+
+[144] The largest longitudinal change occurred in the Mismatch condition. In the EG, N400 amplitude decreased from 8.57 ± 1.90 μV at T1 to 6.58 ± 2.27 μV at T2 and 5.62 ± 2.33 μV at T3. The corresponding CG means were 7.57 ± 1.96, 7.87 ± 2.18, and 7.93 ± 2.66 μV.
+
+[145] 4.2.2. Reaction Time
+
+[146] RT showed significant effects of Time and Condition, as well as significant Group × Time, Time × Condition, and Group × Time × Condition interactions. The three-way interaction was F(4,312) = 4.401, p = .002, ηp² = .053.
+
+[147] In the Mismatch condition, EG RT decreased from 1735.6 ± 227.7 ms at T1 to 1493.1 ± 183.1 ms at T3, whereas CG RT changed from 1720.8 ± 192.5 to 1695.2 ± 213.2 ms.
+
+[148] 4.2.3. Oral Fluency
+
+[149] Oral fluency showed significant Group, Time, and Condition effects and a significant Group × Time interaction, F(2,156) = 3.093, p = .048, ηp² = .038. The Group × Time × Condition interaction was not significant, F(4,312) = 1.336, p = .256, ηp² = .017.
+
+[150] 4.2.4. L1 Pragmatic Reliance
+
+[151] L1 pragmatic reliance showed significant Group and Time effects and significant Group × Time, Group × Condition, and Time × Condition interactions. The Group × Time × Condition interaction was not significant, F(4,312) = 1.444, p = .219, ηp² = .018.
+
+[152] In the Mismatch condition, EG reliance decreased from 8.65 ± 1.66 at T1 to 6.48 ± 1.91 at T3, whereas CG reliance remained comparatively stable (8.05 ± 1.77 at T1 and 8.05 ± 1.58 at T3).
+
+[153] 4.2.5. L1 Calque Errors
+
+[154] L1 calque errors demonstrated significant main effects of Group, Time, and Condition, together with significant Group × Time, Group × Condition, Time × Condition, and Group × Time × Condition interactions. The three-way interaction was F(4,312) = 5.161, p < .001, ηp² = .062.
+
+[155] In the Mismatch condition, EG errors decreased from 9.99 ± 3.93 at T1 to 5.28 ± 3.22 at T3, whereas CG errors remained comparatively stable (10.66 ± 3.61 at T1 and 10.15 ± 3.55 at T3).
+
+[157] 4.3. Simple Effects and Violation-Cost Analyses
+
+[158] Follow-up analyses decomposed the significant higher-order interactions. The results are summarized in Table 3.
+
+[159] Table 3
+
+[160] Violation Costs and Simple Longitudinal Effects
+
+[161] In the EG, N400 amplitude in the Mismatch condition decreased significantly across time, F(2,78) = 28.41, p < .001, ηp² = .421, whereas no significant longitudinal change was observed in the CG, F(2,78) = 0.44, p = .645, ηp² = .011.
+
+[162] The between-group N400 violation cost did not differ at baseline, t(78) = 1.09, p = .278, d = .24. At T3, the EG showed a lower violation cost than the CG, t(78) = −3.46, p < .001, d = .77.
+
+[163] For RT, the EG demonstrated a significant longitudinal reduction in Mismatch response time, F(2,78) = 17.65, p < .001, ηp² = .312, whereas the CG did not, F(2,78) = 1.94, p = .151, ηp² = .047. The T3 RT violation cost was lower in the EG than in the CG, t(78) = −3.74, p < .001, d = .84.
+
+[164] For calque errors, the EG showed a significant reduction across time, F(2,78) = 26.88, p < .001, ηp² = .408, while the CG did not, F(2,78) = 0.48, p = .621, ηp² = .012. The T3 calque-error cost was lower in the EG, t(78) = −6.03, p < .001, d = 1.35.
+
+[166] 4.4. Permutation Testing and FDR Correction
+
+[167] Non-parametric permutation analyses were conducted using 10,000 resamples. The critical N400, RT, and L1 calque-error three-way interactions remained significant after permutation testing and Benjamini–Hochberg FDR correction.
+
+[168] Table 4
+
+[169] Non-Parametric Permutation Testing and Benjamini–Hochberg FDR Correction
+
+[170] The N400 Group × Time × Condition interaction remained significant after permutation testing (p < .0001; q < .0001). The corresponding RT interaction remained significant (p = .0018; q = .0031), as did the L1 Calque Errors interaction (p < .0001; q < .0001).
+
+[171] For N400, all tested effects remained significant after FDR correction. For RT, Group and Group × Condition remained non-significant after FDR correction (q = .2480 and .0580, respectively). All tested L1 Calque Error effects remained significant after FDR correction.
+
+[173] 4.5. Brain–Behavior Associations
+
+[174] Longitudinal change scores were used to examine associations between changes in electrophysiological and behavioral measures.
+
+[175] Table 5
+
+[176] Brain–Behavior Longitudinal Associations
+
+[177] Change in N400 amplitude was positively associated with change in L1 calque errors (r = .48, p = .002) and negatively associated with change in oral fluency (r = −.41, p = .009). Change in RT was positively associated with change in L1 calque errors (r = .44, p = .004).
+
+[178] These correlations are reported as longitudinal associations and should not be interpreted as evidence of causal or mechanistic relationships.
+
+[179] 4.6. Summary of Principal Findings
+
+[180] Across the three longitudinal assessments, the principal Group × Time × Condition interaction was significant for N400 amplitude, RT, and L1 calque errors, but not for oral fluency or L1 pragmatic reliance.
+
+[181] The strongest condition-specific longitudinal changes were observed in the Mismatch condition. The EG showed reductions in N400 amplitude, RT, and L1 calque errors from T1 to T3, whereas corresponding changes in the CG were not statistically significant in the simple longitudinal analyses.
+
+[182] The permutation analyses converged with the omnibus ANOVA results, with the critical three-way interactions remaining significant following 10,000-resample permutation testing and BH-FDR correction. The brain–behavior analyses further demonstrated significant associations between longitudinal changes in N400 amplitude, RT, oral fluency, and L1 calque errors.
+
+[183] These results document differential longitudinal change associated with the intervention within the present sample and design. They do not, by themselves, establish causal neural reorganization.
